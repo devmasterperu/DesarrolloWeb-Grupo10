@@ -1,0 +1,26 @@
+Snippet para VSC
+
+1. Ingresar a: https://snippet-generator.app/
+2. Copiar fragmento de código que quieres reutilizar y pegarla en https://snippet-generator.app/
+3. control + shift + p
+4. Buscamos: configurar fragmentos de usuario
+5. Buscamos html.json. El cual abre un archivo html.json, donde solo nos quedamos con la primera llave, y dentro pegamos lo generado desde https://snippet-generator.app/
+
+
+"HTML básico": {
+        "prefix": "html-basic",
+        "body": [
+          "<!DOCTYPE html>",
+          "<html lang=\"es\">",
+          "    <head>",
+          "        <meta charset=\"UTF-8\">",
+          "        <meta name=\"keywords\" content=\"\">",
+          "        <meta name=\"description\" content=\"\">",
+          "        <title>Devmaster Perú</title>",
+          "    </head>",
+          "    <body>",
+          "    </body>",
+          "</html>"
+        ],
+        "description": "HTML básico"
+    }

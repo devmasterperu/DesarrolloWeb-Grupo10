@@ -1,0 +1,36 @@
+COMANDOS BASICOS EN GIT:
+
+*CONFIGURAR CONSOLA GIT*
+$git config --list
+Visualizar config (valida user.name y user.email)
+
+$git config --global user.name "gmanriqe"
+$git config --global user.email "gmanriqe@gmail.com"
+Identificación
+
+*TRABAJAR*
+$git init
+Inicializando repositorio en local (Working dir)
+
+$git add .
+Seguimiento de archivos (Index) (**)
+
+$git status
+Visualizar estado de archivos
+
+$git commit -m "Mensaje super descriptivo del commit"
+Pasar al repositorio local (Head) (**)
+
+$git remote add origin URL-PROYECTO
+Conectar tu repositorio local a un repositorio remoto
+
+$git push origin master
+Enviar cambios a la rama master (Github) (**)
+
+$git pull origin master
+Traer cambios de la rama master
+
+$git clone URL-PROYECTO
+Clonar un proyecto
+
+Bonus: http://rogerdudler.github.io/git-guide/index.es.html
