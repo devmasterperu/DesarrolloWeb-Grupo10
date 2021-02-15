@@ -1,6 +1,6 @@
 # DesarrolloWeb-Grupo10
 
-Desarrollo Web con Html5, Css3 y JavaScript - 10° Edición
+Desarrollo Web con Html5, Css3 y JavaScript - 10° Edición\
 *Docente:* [Jesús Alexander Gonzales Manrique](https://www.linkedin.com/in/gmanriqe/)
 
 ## SEMANA 01
@@ -25,4 +25,3 @@ Desarrollo Web con Html5, Css3 y JavaScript - 10° Edición
 - Angie Bazan
 - Roy Candia
 - Yuri Abarca
->>>>>>> master
