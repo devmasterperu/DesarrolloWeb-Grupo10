@@ -1,6 +1,7 @@
 # DesarrolloWeb-Grupo10
 
-Desarrollo Web con Html5, Css3 y JavaScript - 10° Edición\
+Desarrollo Web con Html5, Css3 y JavaScript - 10° Edición
+
 *Docente:* [Jesús Alexander Gonzales Manrique](https://www.linkedin.com/in/gmanriqe/)
 
 ## SEMANA 01
@@ -19,9 +20,27 @@ Desarrollo Web con Html5, Css3 y JavaScript - 10° Edición\
 - Creando mi primer proyecto en Github
 - Primeros pasos en Git (comandos básicos)
 
+## SEMANA 03
+
+- Más Etiquetas (fielset, legend, textarea, select, option, optgroup, datalist, audio, video, source, iframe, object, map y area)
+- Validar formularios con pattern
+- Primer Proyecto Real (Estructura HTML)
+- Introducción a CSS (Cascading Style Sheets)
+- ¿Donde colocar nuestros estilos?
+- Sintaxis
+
 ### Practica 01 (SEMANA 01)
 
-- Ana Luque
-- Angie Bazan
-- Roy Candia
-- Yuri Abarca
+- Ana Luque 😃
+- Angie Bazan 😃
+- Roy Candia 😃
+- Yuri Abarca 😃
+
+### Practica 02 y 03 (Formulario y Map y Area)
+
+- Diego de los Santos 😃 😃
+- Angie Bazan 😃 😃 (muy bien)
+- Yuri Abarca 😃 😃
+- Ana Luque 😃 😃
+- Stiven Oscar 😃 😃
+- Roy Candia (solo map y area) 😃
