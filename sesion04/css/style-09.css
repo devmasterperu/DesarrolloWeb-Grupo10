@@ -1,0 +1,55 @@
+/* Entendiendo Herencia en CSS */
+/* Tipografia */
+@font-face {
+    font-family: "Playfair Display"; /* familia tipografica */
+    font-style: normal;
+    font-weight: 400; /* peso tipografico */
+    src: 
+        url('../fonts/playfair-display-v15-latin-regular.eot'),
+        url('../fonts/playfair-display-v15-latin-regular.woff2') format('woff2'),
+        url('../fonts/playfair-display-v15-latin-regular.woff') format('woff'),
+        url('../fonts/playfair-display-v15-latin-regular.ttf') format('truetype'),
+        url('../fonts/playfair-display-v15-latin-regular.svg') format('svg');    
+}
+
+@font-face {
+    font-family: "Playfair Display"; /* familia tipografica */
+    font-style: italic;
+    font-weight: 900;
+    src: 
+        url('../fonts/playfair-display-v15-latin-900italic.eot'),
+        url('../fonts/playfair-display-v15-latin-900italic.woff2') format('woff2'),
+        url('../fonts/playfair-display-v15-latin-900italic.woff') format('woff'),
+        url('../fonts/playfair-display-v15-latin-900italic.ttf') format('truetype'),
+        url('../fonts/playfair-display-v15-latin-900italic.svg') format('svg');
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: "Playfair Display";
+    font-size: inherit;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+/* 
+h1 {
+    font-family: "Playfair Display"; 
+    font-style: italic;
+    font-weight: 900;
+}
+
+span {
+    font-family: "Playfair Display"; 
+    font-style: normal;
+    font-weight: 400;
+} */

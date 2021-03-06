@@ -1,0 +1,27 @@
+/*
+    ¿Que pasa en el caso el diseñador te brinde
+    la tipografia en un formato .otf?
+
+    Tenemos una solución :D
+*/
+
+@font-face {
+    font-family: Valentime;
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Valentime.eot');
+    src:
+        url('../fonts/Valentime.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Valentime.woff2') format('woff2'),
+        url('../fonts/Valentime.woff') format('woff'),
+        url('../fonts/Valentime.ttf') format('truetype'),
+        url('../fonts/Valentime.svg') format('svg');
+}
+
+h1 {
+    font-family: Valentime;
+    font-style: normal;
+    font-weight: 400;
+
+    font-size: 58px;
+}

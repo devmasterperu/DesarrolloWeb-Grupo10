@@ -1,0 +1,16 @@
+/* Aquí colocaremos todos nuestros estilos */
+h1 {
+    font-family: serif; /* tiene remache */
+}
+h2 {
+    font-family: sans-serif; /* no tiene remache */
+}
+h3 {
+    font-family: monospace;
+}
+h4 {
+    font-family: cursive;
+}
+h5 {
+    font-family: fantasy;
+}

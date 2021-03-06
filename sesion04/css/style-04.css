@@ -1,0 +1,24 @@
+img {
+    width: 400px;
+}
+
+/* Tipografías locales - Cargando tipografías */
+/* peso 400 - normal */
+@font-face {
+    font-family: "Playfair Display"; /* familia tipografica */
+    font-style: normal;
+    font-weight: 400; /* peso tipografico */
+    src: url('../fonts/playfair-display-v15-latin-regular.eot'); /* compatible IE9*/
+    src: 
+        url('../fonts/playfair-display-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/playfair-display-v15-latin-regular.woff2') format('woff2'),
+        url('../fonts/playfair-display-v15-latin-regular.woff') format('woff'),
+        url('../fonts/playfair-display-v15-latin-regular.ttf') format('truetype'),
+        url('../fonts/playfair-display-v15-latin-regular.svg') format('svg');    
+}
+
+p {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+}

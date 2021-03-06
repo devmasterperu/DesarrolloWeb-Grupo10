@@ -1,0 +1,9 @@
+body {
+    background-color: springgreen;
+}
+p {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}

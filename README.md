@@ -29,6 +29,19 @@ Desarrollo Web con Html5, Css3 y JavaScript - 10° Edición
 - ¿Donde colocar nuestros estilos?
 - Sintaxis
 
+## SEMANA 04
+
+- Cascada en CSS
+- Principales propiedades CSS para texto
+- Principales familias genéricas
+- Haciendo uso de tipografías internas
+- Haciendo uso de recurso generador de diferentes formatos tipográficos
+- Recursos desde donde descargar fuentes (dafont, fontsquirrel, etc)
+- Haciendo uso de tipografias desde Google Fonts
+- Herencia en CSS
+- Normalize CSS
+
+
 ### Practica 01 (SEMANA 01)
 
 - Ana Luque 😃
@@ -44,3 +57,12 @@ Desarrollo Web con Html5, Css3 y JavaScript - 10° Edición
 - Ana Luque 😃 😃
 - Stiven Oscar 😃 😃
 - Roy Candia (solo map y area) 😃
+
+## Practica 04 (Tipografia)
+
+- Roy Candia 😃
+- Stiven Oscar 😃
+- Yuri Abarca 😃
+- Diego de los Santos 😃
+- Angie Bazan 😃
+- Ana Luque 😃
