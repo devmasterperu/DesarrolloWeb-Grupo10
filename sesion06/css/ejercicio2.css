@@ -1,0 +1,76 @@
+section{
+    width: 500px;
+    margin: 0 auto;
+
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+section h2{
+    font-size: 30px;
+    color: #158A2F;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+section .rayita{
+    width: 50px;
+    height: 3px;
+    background-color: #158A2F;
+    margin: 0 auto;
+}
+
+section p{
+    color: #5E5E5E;
+    margin-bottom: 30px;
+}
+
+.contenedor .item{
+    width: calc(100% / 4);
+    margin: 0 10px;
+    text-align: center;
+}
+
+.contenedor .item figure{
+    margin: 0;
+    text-align: center;
+}
+
+.contenedor .item img{
+    width: 100%;
+    background-color: #F3F7F4;
+    border: solid 1px #000;
+    border-radius: 15px;
+}
+
+.contenedor .item span{
+    color: #5E5E5E;
+}
+
+section button{
+    background-color: #ACD313;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    padding: 20px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 40px;
+}
+
+
+
+
+
+
+
+
+
