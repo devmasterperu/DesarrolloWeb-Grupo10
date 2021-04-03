@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <title>Devmaster Perú</title>
+        <style>
+            /* selector de combinación*/
+           nav#menu ul.segundo li a.activo {
+               color: red;
+           }
+
+            /* selector hijo directo 🧠 */
+            /* selecciona al elemento <a> solo del primer parrafo */
+            /* 
+            solución de Angie 😁
+            section p a {
+                background-color: red;
+            }
+            section p strong a {
+                background-color: transparent;
+            } 
+            */
+
+            p > a {
+                background-color: red;
+            }
+
+            /* Selector adyacente */
+            h1 + p {
+                background-color: deepskyblue;
+                text-decoration: underline
+            }
+
+            /* Selector precedente */
+            h1 ~ span {
+                background-color: deeppink
+            }
+
+            /* Selectores de atributo*/
+            /* [for="Vitaly"] 😎 Parte del juego*/
+            [class*="parrafo"] {
+                color: deeppink;
+            }
+            [href^="pdf"] { /* alt + 94 = ^ */
+                background-color: orangered;                
+            }
+            [href$=".pdf"] {
+                padding: 7px 15px;
+                border: 2px solid black;
+                border-radius: 4px;
+            }
+
+            [href^="https"] {
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <nav id="menu">
+            <ul class="segundo">
+                <li><a href="#">item 1</a></li>
+                <li><a href="#" class="activo">item 2</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ex amet quam, reiciendis accusamus facere nihil animi sapiente sed vitae corrupti debitis, eligendi exercitationem aperiam doloremque numquam voluptatibus fuga <a href="#">click</a></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius est alias dolore nesciunt distinctio perferendis debitis aspernatur incidunt, nihil ex quidem porro sapiente <strong><a href="#">click</a></strong></p>
+        </section>
+
+        <article>
+            <span>OJITO AQUÍ 👀</span>
+            <p>OJITO AQUÍ 👀</p>
+            <h1>Devmaster</h1>
+            <p>Soy el elemento adyante que está seguido del elemento h1</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi suscipit iure, accusamus laborum, inventore veritatis incidunt eligendi maiores recusandae ipsa illum ut exercitationem vel in dolores obcaecati tempora at fugit!</p>
+            <span>Soy el elemento precente que ha sido afectado</span>
+        </article>
+
+        <section>
+            <h2>Devmaster</h2>
+            <p class="parrafo-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam fugit accusantium nobis accusamus est. Soluta, hic! Ab dolores accusantium culpa voluptatibus libero. Veritatis ducimus alias assumenda! Officia nesciunt illo iure.</p>
+            <p class="parrafo-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus vero aliquid, laborum quisquam amet quas aspernatur repellat vitae voluptatem culpa soluta voluptas cum cupiditate! Aspernatur placeat vitae enim omnis.</p>
+            <a href="https://facebook.com/">IR A FACEBOOK</a>
+            <a href="pdf/dummy.pdf">VER PDF</a>
+        </section>
+    </body>
+</html>

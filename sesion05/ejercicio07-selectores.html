@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <title>Devmaster Perú</title>
+        <style>
+            /* Más selectores 😀 */
+            .selector-1 :first-child {
+                background-color: deepskyblue
+            }
+            .selector-1 :last-child {
+                background-color: deeppink
+            }
+            .selector-1 :nth-child(3) {
+                text-decoration: underline;
+            }
+            .selector-1 :nth-child(5) {
+                text-decoration: underline;
+            }
+
+            .selector-2 :nth-child(even) {
+                background-color: skyblue /* seleccionamos pares */
+            }
+            .selector-2 :nth-child(odd) {
+                background-color: darkgreen; /* seleccionamos impares */
+            }
+            
+            .selector-3 :nth-last-child(1) {
+                text-transform: uppercase;
+            }
+            .selector-3 :nth-last-child(4) {
+                font-size: 24px;
+            }
+            .selector-3 :nth-last-child(2) {
+                background-color: red;
+            }
+
+            /* Nos permite selecionar a un elemento, de su tipo (contando desde el ultimo) */
+            .selector-5 h3:nth-last-of-type(2) {
+                color: lime
+            }
+            .selector-5 h3:nth-last-of-type(3) {
+                color: red;
+            }
+            .selector-5 p:nth-last-of-type(8) {
+                color: darkblue;
+            }
+
+            .selector-6 div:nth-of-type(2) {
+                background-color: springgreen;
+            }
+            .selector-6 p:first-of-type {
+                background-color:steelblue;
+            }
+            .selector-6 p:last-of-type {
+                background-color:tomato;
+            }
+
+            .selector-7 i:only-of-type {
+                color: red;
+            }
+            
+            .selector-8 :empty {
+                display: none;
+            }
+            .selector-8 :not(:last-child) {
+                font-size: 24px
+            }
+
+            .selector-9 :first-child:first-line {
+                color: deepskyblue;
+            }
+            .selector-9 :last-child:first-letter {
+                color: springgreen;
+                font-size: 34px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>selector 1</h2>
+        <div class="selector-1">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero voluptatibus architecto sed!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero voluptatibus architecto sed!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero voluptatibus architecto sed!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero voluptatibus architecto sed!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero voluptatibus architecto sed!</p>
+        </div>
+        <br>
+        <br>
+        <h2>selector 2</h2>
+        <div class="selector-2">
+            <p>Generate Lorem Ipsum placeholder text. Select the number of characters, words.</p>
+            <p>Generate Lorem Ipsum placeholder text. Select the number of characters, words.</p>
+            <p>Generate Lorem Ipsum placeholder text. Select the number of characters, words.</p>
+            <p>Generate Lorem Ipsum placeholder text. Select the number of characters, words.</p>
+        </div>
+        <br>
+        <br>
+        <h2>selector 3</h2>
+        <nav>
+            <ul class="selector-3">
+                <li>Donec ac odio tempor orci dapibus ultrices</li>
+                <li>Donec ac odio tempor orci dapibus ultrices</li>
+                <li>Donec ac odio tempor orci dapibus ultrices</li>
+                <li>Donec ac odio tempor orci dapibus ultrices</li>
+            </ul>
+        </nav>
+        <br>
+        <br>
+        <h2>selector 4</h2>
+        <nav>
+            <ol class="selector4">
+                <li>Donec ac odio tempor orci dapibus ultrices</li>
+                <li>Donec ac odio tempor orci dapibus ultrices</li>
+                <li>Donec ac odio tempor orci dapibus ultrices</li>
+                <li>Donec ac odio tempor orci dapibus ultrices</li>
+            </ol>
+        </nav>
+        <br>
+        <br>
+        <h2>selector 5</h2>
+        <div class="selector-5">
+            <h3>Título</h3>
+            <p>Generate Lorem Ipsum placeholder text</p>
+            <p>Generate Lorem Ipsum placeholder text</p>
+            <p>Generate Lorem Ipsum placeholder text</p>
+            <h3>Título</h3>
+            <p>Generate Lorem Ipsum placeholder text</p>
+            <p>Generate Lorem Ipsum placeholder text</p>
+            <p>Generate Lorem Ipsum placeholder text</p>
+            <h3>Título</h3>
+            <p>Generate Lorem Ipsum placeholder text</p>
+            <p>Generate Lorem Ipsum placeholder text</p>
+            <p>Generate Lorem Ipsum placeholder text</p>
+        </div>
+        <br>
+        <br>
+        <h2>selector 6</h2>
+        <div class="selector-6">
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+        <br>
+        <br>
+        <h2>selector 7</h2>
+        <div class="selector-7">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <i>texto prueba only-of-type</i>
+        </div>
+        <br>
+        <br>
+        <h2>selector 8</h2>
+        <nav>
+            <ul class="selector-8">
+                <li>item1</li>
+                <li>item2</li>
+                <li>item3</li>
+                <li>item4</li>
+                <li></li>
+            </ul>
+        </nav>
+        <br>
+        <br>
+        <h2>selector 9</h2>
+        <div class="selector-9">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit alias, culpa recusandae maiores sunt perferendis rerum aperiam expedita quas consectetur necessitatibus iure dicta porro vel, nesciunt fugit? Recusandae, quo laboriosam?
+            Cum, voluptatum repudiandae perferendis officia sapiente saepe aspernatur consequatur officiis a provident incidunt tenetur cupiditate corporis sequi aut omnis, quaerat odit soluta dolore commodi sint voluptatibus libero necessitatibus? Facere, qui.
+            Ducimus sapiente totam maxime, numquam autem magni odit consequatur soluta suscipit laboriosam voluptas aut rem debitis a quod tempora quo, saepe mollitia iusto similique obcaecati eos facere quia cupiditate? Illum.
+            Exercitationem, quae animi. Necessitatibus blanditiis, suscipit veritatis reprehenderit fuga cupiditate repellendus reiciendis sint quae facere consectetur cum doloribus nam quidem excepturi maiores odit laboriosam tenetur, quisquam delectus! Iure, perspiciatis repudiandae?
+            Architecto, incidunt? Nostrum dignissimos maiores iure recusandae amet numquam voluptates, similique rem voluptas cumque aliquid natus ea, molestiae in debitis voluptatem nihil repellat possimus. Quaerat, reiciendis quos! Sunt, aperiam aliquid?</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <title>Devmaster Perú</title>
+        <style>
+            
+            /* 😁 CASCADA */
+            .azul {
+                background-color: blue;
+            }
+            .verde {
+                background-color: lime;
+            }
+
+            /* 🧠😤 ESPECIFICIDAD */
+            h1 {
+                color: teal !important;
+            }
+            #titulo { /* 1 0 0 (3er digito) */
+                color: red;
+            }
+            .titulo { /* 0 1 0 (2do digito) */
+                color: skyblue;
+            }
+            h1 { /* 0 0 1 (1er digito) */
+                color: deeppink;
+            }
+            
+        </style>
+    </head>
+    <body>
+         <!-- ESPECIFICIDAD 🧠😤 -->
+        <h1 class="titulo" id="titulo" style="color: peru">Devmaster</h1>
+
+        <!-- CASCADA - 😀 Diego de los Santos -->
+        <div class="azul verde">elemento 1</div> <!-- ¿que estilo tendrá? --> 
+        <div class="verde azul">elemento 2</div> <!-- ¿que estilo tendrá? -->
+        
+    </body>
+</html>

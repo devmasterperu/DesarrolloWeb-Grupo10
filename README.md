@@ -41,6 +41,17 @@ Desarrollo Web con Html5, Css3 y JavaScript - 10° Edición
 - Herencia en CSS
 - Normalize CSS
 
+## SEMANA 05
+
+- Modelo de caja
+- Box-sizing
+- Colapso de margenes
+- Tamaño de un elemento
+- Bordes redondeados
+- Selectores
+- Especificidad en CSS
+
+## PRACTICAS
 
 ### Practica 01 (SEMANA 01)
 
@@ -58,7 +69,7 @@ Desarrollo Web con Html5, Css3 y JavaScript - 10° Edición
 - Stiven Oscar 😃 😃
 - Roy Candia (solo map y area) 😃
 
-## Practica 04 (Tipografia)
+### Practica 04 (Tipografia)
 
 - Roy Candia 😃
 - Stiven Oscar 😃
@@ -66,3 +77,12 @@ Desarrollo Web con Html5, Css3 y JavaScript - 10° Edición
 - Diego de los Santos 😃
 - Angie Bazan 😃
 - Ana Luque 😃
+
+### Practica 05 (Selectores)
+
+- Roy Candia
+- Stiven Oscar
+- Yuri Abarca
+- Diego de los Santos 😀😀😀😀😀😀😀😀
+- Angie Bazan 😀😀😀😀😀😀😀😀😀😀😀😀 🎉
+- Ana Luque

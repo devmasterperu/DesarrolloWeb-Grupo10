@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <title>Devmaster Perú</title>
+        <style>
+            /* selector etiqueta */
+            /* h1{
+                font-family: monospace;
+                background-color: skyblue;
+            }
+
+            h2 {
+                font-family: monospace;
+                background-color: skyblue;
+            } */
+
+            /* agrupando selectores */
+            h1,
+            h2 {
+                font-family: monospace;
+                background-color: skyblue;
+            }
+
+            /* selector descendente */
+            h2 span {
+                color: red;
+            }
+
+            /* selector de clase */
+            .subrayado {
+                text-decoration: underline;
+            }
+            .texto-resaltado {
+                background-color: yellow;
+            }
+
+            /* selector de id */
+            #texto-importante {
+                font-size: 22px;
+            }
+            #texto-importante-2 {
+                background-color: deeppink;
+            }
+            /* 
+            #123 { 
+                font-size: 22px; 
+            }
+            */
+            [id="1236"] {
+                font-size: 22px; /* primera solución */
+            }
+
+            #\31 236{
+                font-size: 22px; /* segunda solución */
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="subrayado">Devmaster</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quos architecto illo iusto omnis, tempora vitae! Iusto quo voluptate nam impedit voluptatum sint corporis voluptates saepe optio! Placeat, voluptatem <span class="subrayado texto-resaltado">necessitatibus?</span></p>
+
+        <!-- <h2>Lorem <span class="subrayado">ipsum</span></h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel deleniti, a, laborum aliquid voluptatem cum tenetur repellendus vero dolor labore, quas excepturi quis. Ullam vero facere velit eligendi amet <span id="texto-importante">reprehenderit</span>.</p> -->
+
+        <h2>Lorem <span class="subrayado" id="texto-importante-2">ipsum</span></h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel deleniti, a, laborum aliquid voluptatem cum tenetur repellendus vero dolor labore, quas excepturi quis. Ullam vero facere velit eligendi amet <span id="1236">reprehenderit</span>.</p>
+
+        <span class="subrayado">Hey, soy un span</span>
+    </body>
+</html>
