@@ -1,0 +1,36 @@
+header{
+    background-color: #F3F7F4;
+    padding: 20px 0;
+    font-family: 'Poppins', 'Arial', sans-serif;
+}
+
+header .contenedor{
+    width: 1140px;
+    margin: 0 auto;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header .contenedor nav a{
+    color: #707070;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: all .3s;
+}
+
+header .contenedor nav a:hover{
+    font-weight: 600;
+}
+
+
+.logo{
+    opacity: 0;
+    transition: all .3s;
+}
+.logo:hover{
+    opacity: 1;
+}

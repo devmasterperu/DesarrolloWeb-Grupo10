@@ -1,0 +1,43 @@
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin: 5px;
+    display: inline-block;
+}
+
+.contenedor{
+    width: 800px;
+    height: 800px;
+    background-color: tomato;
+    padding: 20px;
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center; /* Eje principal por default */
+
+    flex-wrap: wrap;
+
+    align-content: center; /* Eje secundario por default */
+}
+
+.contenedor img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: solid 1px #000;
+    display: block;
+}
+
+.contenedor img:nth-child(1){
+    order: 1;
+}
+.contenedor img:nth-child(2){
+    order: 2;
+}
+
+.candidato{
+    display: flex;
+    flex-direction: row-reverse;
+}
