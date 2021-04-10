@@ -75,6 +75,12 @@ p {
 a {
     text-decoration: none;
 }
+figure {
+    margin: 0;
+}
+img {
+    display: block;
+}
 
 /****************************
 Components
@@ -98,6 +104,46 @@ Components
     color: var(--primary-color);
 }
 
+/* title */
+.title {
+    text-align: center;
+    padding-bottom: 48px;
+    padding-top: 96px;
+}
+.title span {
+    display: block;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+/* Card 1 */
+.card-1:hover div { 
+    background-color: var(--primary-color);
+}
+.card-1:hover p {
+    color: var(--white-color);
+}
+.card-1 div {
+    height: 54px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.card-1 p {
+    color: var(--black-color);
+    line-height: 54px;
+    font-weight: 700;
+    margin-left: 27px;
+}
+.card-1 figure {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    overflow: hidden;
+}
+
 /****************************
 Style
 *****************************/
@@ -106,7 +152,7 @@ Style
     width: 1200px;
     padding: 0 10px;
     margin: 0 auto;
-    outline: 1px solid red;
+    outline: 1px dashed deeppink;
 }
 
 
@@ -125,8 +171,24 @@ Style
 }
 .banner-content p {
     color: var(--secondary-color);
+    margin: 12px 0 19px; 
+}
+.banner-content .btn:not(.btn-secondary){
+    margin-right: 20px;
 }
 
-/* services */
+/* Gallery */
+.home-gallery {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 65px;
+}
 
-/* recommendations */
+/* Services */
+.home-my-services {
+    display: flex;
+}
+.home-my-services .card-1:not(:last-child) {
+    margin-right: 20px;
+}
+/* Recommendations */
