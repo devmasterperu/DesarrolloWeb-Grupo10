@@ -1,0 +1,15 @@
+/****************************
+Variables
+*****************************/
+:root {
+    --primary-color: #FF0402;
+    --secondary-color: #707070;
+    --terteary-color: #A0A3A8;
+    --quaternary-color: #F5FAFD;
+ 
+    --white-color: #FFF;
+    --black-color: #000;
+ 
+    --primary-font: 'Raleway', sans-serif;
+    --secondary-font: 'Zilla Slab', serif;
+ }

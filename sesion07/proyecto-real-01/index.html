@@ -13,7 +13,9 @@
         <link rel="stylesheet" href="css/normalize.css">
         <!-- Style CSS -->
         <link rel="stylesheet" href="css/style.css">
-        <title>Devmaster</title>
+        <title>Devmaster</title>ç
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/4e8c731652.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header></header>
@@ -121,33 +123,45 @@
                     <span>Web Developer</span>
                 </div>
             </section>
-            <section>
-                <div class="title">
-                    <h2><span>reprehenderit in voluptate</span>Leave us a message</h2>
+            <section class="main-home-form">
+                <div class="container">
+                    <div class="title">
+                        <h2><span>reprehenderit in voluptate</span>Leave us a message</h2>
+                    </div>
+                    <form class="home-form">
+                        <div class="form-control form-control-left">
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class="form-control form-control-right">
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <div class="form-control">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="form-control">
+                            <textarea placeholder="Your message"></textarea>
+                        </div>
+                        <div class="form-control">
+                            <button type="submit" class="btn">send</button>
+                        </div>
+                    </form>
                 </div>
-                <form>
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email">
-                    <input type="text" placeholder="Subject">
-                    <textarea placeholder="Your message"></textarea>
-                    <button type="submit" class="btn">send</button>
-                </form>
             </section>
         </main>
-        <footer>
-            <nav>
-                <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                </ul>
-            </nav>
-            <p><small>2020 ©Devmaster Perú. All rights reserved. Design - <a href="">GManriqe</a></small></p>
+        <footer class="main-home-footer">
+            <div class="container">
+                <div class="home-footer">
+                    <nav>
+                        <ul> <!-- Elemento padre -->
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li> <!-- Elemento hijo -->
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li> <!-- Elemento hijo -->
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li> <!-- Elemento hijo -->
+                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li> <!-- Elemento hijo -->
+                        </ul>
+                    </nav>
+                    <p><small>2020 ©Devmaster Perú. All rights reserved. <br> Design - <a href="">GManriqe</a></small></p>
+                </div>
+            </div>
         </footer>
-        <p>
-            <span>hola</span><span>devmaster</span>
-
-        </p>
     </body>
 </html>

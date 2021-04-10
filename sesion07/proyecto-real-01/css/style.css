@@ -7,21 +7,7 @@ Fonts
 } 
 */
 
-/****************************
-Variables
-*****************************/
-:root {
-   --primary-color: #FF0402;
-   --secondary-color: #707070;
-   --terteary-color: #A0A3A8;
-   --quaternary-color: #F5FAFD;
-
-   --white-color: #FFF;
-   --black-color: #000;
-
-   --primary-font: 'Raleway', sans-serif;
-   --secondary-font: 'Zilla Slab', serif;
-}
+@import url('variables.css');
 
 /****************************
 Generals
@@ -80,6 +66,22 @@ figure {
 }
 img {
     display: block;
+}
+input,
+textarea {
+    display: block;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 18px 21px;
+    line-height: 23px;
+    width: 100%;
+}
+input {
+    height: 56px;
+}
+textarea {
+    height: 175px;
+    resize: none;
 }
 
 /****************************
@@ -192,3 +194,49 @@ Style
     margin-right: 20px;
 }
 /* Recommendations */
+
+/* Form */
+.home-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+.home-form .form-control {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.home-form .form-control.form-control-left {
+    width: 590px;
+    padding-right: 10px;
+}
+.home-form .form-control.form-control-right {
+    width: 590px;
+    padding-left: 10px;
+}
+.home-form .form-control:last-child {
+    text-align: center;
+    padding-top: 12px;
+}
+
+/* Footer */
+.main-home-footer {
+    background-color: var(--black-color);
+}
+.home-footer {
+    padding-top: 53px;
+}
+.home-footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.home-footer li:not(:last-child) {
+    padding-right: 37px;
+}
+.home-footer i {
+    color: var(--white-color);
+    font-size: 24px;
+}
+.home-footer p {
+    color: var(--terteary-color);
+    text-align: center;
+}
