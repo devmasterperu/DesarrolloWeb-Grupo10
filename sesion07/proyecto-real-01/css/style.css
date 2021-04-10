@@ -101,10 +101,25 @@ Components
 /****************************
 Style
 *****************************/
+/* container */
+.container {
+    width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
 
 
-
-/* banner */
+/* Hero Banner */
+.h-hero-banner {
+    background-color: #fafafa;
+    height: 600px;
+    display: flex;
+    align-items: center; /* centrar en el eje secundario*/
+}
+.banner-content {
+    text-align: center;
+}
 .banner-content span {
     color: var(--primary-color);
 }
