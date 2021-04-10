@@ -1,0 +1,117 @@
+/****************************
+Fonts
+*****************************/
+/* 
+@font-face {
+
+} 
+*/
+
+/****************************
+Variables
+*****************************/
+:root {
+   --primary-color: #FF0402;
+   --secondary-color: #707070;
+   --terteary-color: #A0A3A8;
+   --quaternary-color: #F5FAFD;
+
+   --white-color: #FFF;
+   --black-color: #000;
+
+   --primary-font: 'Raleway', sans-serif;
+   --secondary-font: 'Zilla Slab', serif;
+}
+
+/****************************
+Generals
+*****************************/
+* {
+    box-sizing: border-box;
+}
+
+/****************************
+Typography
+*****************************/
+html {
+    font-size: 18px;
+}
+body {
+    font-family: var(--primary-font);
+    font-size: inherit;
+    line-height: 23px;
+    font-weight: 400;
+}
+h1 {
+    
+    font-size: 70px;
+    line-height: 84px;
+    
+}
+h2{
+    
+    font-size: 50px;
+    line-height: 60px;
+    
+}
+h3{
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+}
+h1,
+h2 {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+}
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+/****************************
+Components
+*****************************/
+/* btn */
+.btn  {
+    background-color: var(--primary-color);
+    display: inline-block;
+    width: 178px;
+    height: 45px;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    color: var(--white-color);
+    line-height: 41px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.btn.btn-secondary {
+    background-color: var(--white-color);
+    color: var(--primary-color);
+}
+
+/****************************
+Style
+*****************************/
+
+
+
+/* banner */
+.banner-content span {
+    color: var(--primary-color);
+}
+.banner-content p {
+    color: var(--secondary-color);
+}
+
+/* services */
+
+/* recommendations */
