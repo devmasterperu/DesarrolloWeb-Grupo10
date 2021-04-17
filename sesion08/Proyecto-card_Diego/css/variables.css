@@ -1,0 +1,13 @@
+/****************************
+Variables
+*****************************/
+:root {
+    --primary-color: #000000;
+    --secondary-color: #AD7D52;
+    --terteary-color: #F5FAFD;
+    --quaternary-color:#707070;
+    --quinary-color: #020001;
+ 
+    --primary-font: 'Raleway', sans-serif;
+    --secondary-font: 'Roboto Slab', serif;
+}

@@ -1,0 +1,106 @@
+/****************************
+Fonts
+*****************************/
+/* 
+@font-face {
+} 
+*/
+@import url('variables.css');
+
+/****************************
+Generals
+*****************************/
+* {
+    box-sizing: border-box;
+}
+
+/****************************
+Typography
+*****************************/
+html {
+    font-size: 18px;
+}
+body {
+    font-family: var(--primary-font);
+    font-size: inherit;
+    line-height: 22.5px;
+    font-weight: 400;
+}
+h3{
+    font-family: var(--secondary-font);
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+}
+h3 {
+    margin: 0;
+}
+p {
+    margin: 0;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+}
+figure {
+    margin: 0;
+}
+img {
+    display: block;
+}
+
+/****************************
+Components
+*****************************/
+/* container */
+.container {
+    width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+    /* outline: 1px dashed deeppink; */
+}
+/* card */
+.card-pasteles {
+    width: 380px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16);
+}
+.card-pasteles .card-pasteles__details {
+    padding: 26px 20px;
+}
+.card-pasteles .card-pasteles__details em {
+    font-style: normal;
+}
+.card-pasteles .card-pasteles__details span {
+    color: var(--secondary-color);
+}
+.card-pasteles .card-pasteles__details h3 {
+    margin: 10px 0;
+}
+.card-pasteles .card-pasteles__details div {
+    text-align: center;
+    margin-top: 27px;
+}
+
+.btn {
+    background-color: var(--secondary-color);
+    color: var(--terteary-color);
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    border-color: transparent;
+    text-transform: uppercase;
+}
+.btn:hover {
+    background-color: var(--quinary-color);
+}
+
+/* Home cards */
+.home-cards {
+    display: flex;
+}
+.home-cards .card-pasteles:not(:last-child) {
+    margin-right: 20px;
+}
