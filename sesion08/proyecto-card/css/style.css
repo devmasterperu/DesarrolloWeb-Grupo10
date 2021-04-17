@@ -1,0 +1,73 @@
+/****************************
+Fonts
+*****************************/
+/* 
+@font-face {
+
+} 
+*/
+@import url('variables.css');
+
+/****************************
+Generals
+*****************************/
+* {
+    box-sizing: border-box;
+}
+
+/****************************
+Typography
+*****************************/
+html {
+    font-size: 18px;
+}
+body {
+    font-family: var(--primary-font);
+    font-size: inherit;
+    line-height: 23px;
+    font-weight: 400;
+}
+h1 {
+    
+    font-size: 70px;
+    line-height: 84px;
+    
+}
+h2{
+    
+    font-size: 50px;
+    line-height: 60px;
+    
+}
+h3{
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+}
+h1,
+h2 {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+}
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+figure {
+    margin: 0;
+}
+img {
+    display: block;
+}
+
+/****************************
+Components
+*****************************/
+/* card */
