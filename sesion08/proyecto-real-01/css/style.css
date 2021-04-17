@@ -177,14 +177,26 @@ Components
 }
 
 /* card 3 */
-.card-3 span {
+.card-3 {
+    background-color: var(--quaternary-color);
+    width: 380px;;
+    border-radius: 5px;
+    padding: 34px 68px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.16);
+    display: flex;
+}
+.card-3 > span {
+    color: var(--quinary-color);
+    font-size: 62px;
+    line-height: 52px;
+    padding-right: 14px;
+}
+.card-3 .card-3__details span {
     font-size: 44px;
     line-height: 51px;
     font-weight: 700;
 }
-.card-3 div {
-    padding-left: 72px;
-}
+
 /****************************
 Style
 *****************************/
@@ -195,7 +207,6 @@ Style
     margin: 0 auto;
     outline: 1px dashed deeppink;
 }
-
 
 /* Hero Banner */
 .h-hero-banner {
@@ -231,6 +242,11 @@ Style
 }
 .home-my-services .card-1:not(:last-child) {
     margin-right: 20px;
+}
+
+/* Details */
+.home-details {
+    display: flex;
 }
 
 /* Recommendations */
