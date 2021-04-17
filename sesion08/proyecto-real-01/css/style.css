@@ -184,6 +184,7 @@ Components
     padding: 34px 68px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.16);
     display: flex;
+    margin-bottom: 40px;
 }
 .card-3 > span {
     color: var(--quinary-color);
@@ -205,12 +206,35 @@ Style
     width: 1200px;
     padding: 0 10px;
     margin: 0 auto;
-    outline: 1px dashed deeppink;
+    /* outline: 1px dashed deeppink; */
+}
+
+/* Header */
+.main-home-header {
+    width: 100%;
+    position: fixed;
+    background-color: var(--white-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.16);
+}
+.home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 78px;
+}
+.home-header .icon-menu {
+    font-size: 48px;
 }
 
 /* Hero Banner */
+.main-h-hero-banner {
+    background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-top: 78px;
+}
 .h-hero-banner {
-    background-color: #fafafa;
     height: 600px;
     display: flex;
     align-items: center; /* centrar en el eje secundario*/
@@ -247,6 +271,10 @@ Style
 /* Details */
 .home-details {
     display: flex;
+    padding-top: 48px;
+}
+.home-details .card-3:not(:last-child) {
+    margin-right: 20px;
 }
 
 /* Recommendations */
@@ -284,7 +312,7 @@ Style
     background-color: var(--black-color);
 }
 .home-footer {
-    padding-top: 53px;
+    padding: 53px 0;
 }
 .home-footer ul {
     list-style-type: none;
@@ -301,4 +329,8 @@ Style
 .home-footer p {
     color: var(--terteary-color);
     text-align: center;
+}
+.home-footer p a {
+    color: var(--terteary-color);
+    text-decoration: underline;
 }

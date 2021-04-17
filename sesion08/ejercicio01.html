@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <title>Devmaster Perú</title>
+        <style>
+            article {
+                width: 200px;
+                height: 200px;
+               
+            }
+            body :nth-child(1) {
+                top: 10px; /* Ojito aquí no funciona el top, bottom, left, right y z-index */
+                background-color: darkgreen
+            }
+            body :nth-child(2) {
+                position: relative;
+                bottom: 30px;
+                left: 30px;
+                background-color: deeppink;
+            }
+        </style>
+    </head>
+    <body>
+        <article></article>
+        <article></article>
+    </body>
+</html>
