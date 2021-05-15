@@ -1,0 +1,183 @@
+/****************************
+Fonts
+*****************************/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/****************************
+Variables
+*****************************/
+:root {
+    --primary-color: #1ABC9C;
+    --secondary-color: #2B3E50;
+
+    --white-color: #FFF;
+    --black-color: #000;
+ 
+    --primary-font: 'Lato', sans-serif;
+}
+
+
+/****************************
+Generals
+*****************************/
+
+/****************************
+Typography
+*****************************/
+html {
+    font-size: 20px;
+}
+body {
+    color: var(--white-color);
+    font-family: var(--primary-font);
+    font-size: inherit;
+    line-height: 24px;
+    font-weight: 400;
+}
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+}
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 40px;
+}
+h3 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 24px;
+}
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+}
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+figure {
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+/****************************
+Components
+*****************************/
+/* Icon star */
+.content-icon {
+    margin-bottom: 33px;
+}
+.icon-star {
+    position: relative;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+.icon-star i {
+    color: var(--secondary-color);
+}
+.icon-star:before,
+.icon-star:after  {
+    content: '';
+    display: inline-block;
+    background-color: var(--secondary-color);
+    width: 130px;
+    height: 5px;
+    position: absolute;
+    
+    top: 50%;
+    transform: translateY(-50%);
+}
+.icon-star:before {
+    left: -18px;
+}
+.icon-star:after {
+    right: -18px;
+}
+
+/* Title */
+.title {
+    text-align: center;
+    padding-top: 96px;
+    margin-bottom: 24px;
+}
+.title.title__alt {
+    color: var(--secondary-color);
+}
+
+/* card-1 */
+.card-1 {
+    margin-bottom: 30px;
+}
+.card-1 img {
+    margin: 0 auto;
+}
+
+/****************************
+Style
+*****************************/
+
+/* Header */
+.main-home-header {
+    background-color: var(--secondary-color);
+}
+.main-home-header .navbar {
+    padding: 30px 20px;
+}
+.main-home-header .navbar-light .navbar-brand {
+    color: var(--white-color);
+}
+.main-home-header .navbar-light .navbar-nav .nav-link {
+    color: var(--white-color);
+}
+
+/* Banner */
+.main-home-banner {
+    background-color: var(--primary-color);
+    padding: 102px 0 114px;
+}
+.home-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-banner figure {
+    margin-bottom: 24px;
+}
+.home-banner h3 {
+    text-align: center;
+}
+
+/* Portolio */
+.main-home-portfolio {
+    padding-bottom: 65px;
+}
+
+/* About */
+.main-home-about {
+    background-color: var(--primary-color);
+    padding-bottom: 65px;
+}
+
+@media screen and (max-width: 767px) {
+    .title {
+        padding-top: 35px;
+    }
+    .main-home-portfolio {
+        padding-bottom: 35px;
+    }
+    .main-home-about {
+        padding-bottom: 35px;
+    }   
+}
